@@ -1,0 +1,20 @@
+.geral{
+
+    text-align: center;
+    border: solid;
+    border-radius: 1px;
+    border-left-width: 10cm;
+    border-right-width: 10cm;
+}
+
+.time{
+    border-radius: 10px;
+}
+
+.botao{
+    border-radius: 3px;
+}
+
+body{
+    background-color: rgb(165, 162, 162);
+}

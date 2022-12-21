@@ -1,0 +1,1 @@
+window.separator = new SeparatorController();

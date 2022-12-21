@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="geral">
+        <h1>Separador de Times</h1>
+
+        <div id="listaSeparar">
+            
+            <textarea name="lista" id="lista" cols="50" rows="20" placeholder="Inseri aqui a lista de jogadores" class="time"></textarea><br>
+            <button id="separar" class="botao">Separar</button><br>
+
+        </div>
+        
+        
+        <div id="times">
+
+            <h3>Time A</h3>
+            <textarea name="timeUm" id="timeUm" cols="25" rows="8" class="time" disabled></textarea>
+            
+            <h3>Time B</h3>
+            <textarea name="timeDois" id="timeDois" cols="25" rows="8" class="time" disabled></textarea><br>
+                    
+            <h3>Banco</h3>
+            <textarea name="banco" id="banco" cols="25" rows="8" class="time" disabled></textarea>
+
+        </div>
+        
+    </div>
+
+    <script src="./scripts/controller/separatorController.js"></script>
+    <script src="./scripts/separator.js"></script>
+</body>
+
+
+</html>
